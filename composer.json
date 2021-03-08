@@ -1,0 +1,29 @@
+{
+    "name": "adityar15/contactform",
+    "description": "A contact form package using Livewire and Tailwind CSS",
+    "require": {
+        "livewire/livewire": "2.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aditya",
+            "email": "adityask2194@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {
+            "adityar15\\contactform\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel":{
+            "providers":[
+                "adityar15\\contactform\\ContactFormServiceProvider"
+            ]
+        }
+    }
+}
